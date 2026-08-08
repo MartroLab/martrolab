@@ -7,3 +7,10 @@
 .project-thumb{background:radial-gradient(circle at 50% 38%,rgba(17,217,223,.16),#07101b 64%)}
 .phone.project-screenshot{background:#050b14;overflow:hidden;box-shadow:0 22px 55px #0009,0 0 0 1px rgba(17,217,223,.12)}
 .phone.project-screenshot img{width:100%;height:100%;display:block;object-fit:cover;object-position:top center}
+
+.project-card[data-category="schools"] .project-thumb{background:radial-gradient(circle at 50% 40%,rgba(17,217,223,.10),#07101b 64%)}
+
+.english-home-thumb{background:linear-gradient(145deg,#f5f3ed,#e8e5dc)!important;padding:28px!important}
+.english-home-logo-card{width:100%;max-width:300px;aspect-ratio:4/5;border-radius:22px;overflow:hidden;background:#f7f5ef;box-shadow:0 22px 55px rgba(0,0,0,.20);display:grid;place-items:center;border:6px solid rgba(255,255,255,.9)}
+.english-home-logo-card img{width:100%;height:100%;object-fit:cover;display:block}
+@media(max-width:560px){.english-home-logo-card{max-width:250px}}
